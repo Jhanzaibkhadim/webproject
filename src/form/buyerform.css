@@ -11,17 +11,16 @@
   }
   .mainheading{
     text-align: center;
-    /* padding-bottom: 1em; */
+  
     font-size: 1.5em;
     font-weight: bold;
-    height: 40%;
+  
   }
   .maindiv{
-    width: 34%;
+    width: 80vw;
     background: white;
     padding: 2em;
     border-radius: 20px;
-    /* margin: 10em; */
     height: 40vh;
     margin: auto;
   }
@@ -38,6 +37,9 @@
     padding:0;
   }
   
+  textarea {
+    resize: none;
+    }
   .brand{
     text-align: center;
     padding-bottom: 10px;
@@ -135,6 +137,14 @@
       grid-template-columns: 1fr 2fr;
     }
   
+    .maindiv{
+        width: 40vw;
+        /* background: white;
+        padding: 2em;
+        border-radius: 20px;
+        height: 40vh;
+        margin: auto; */
+      }
     .wrapper > *{
       padding:1em;
     }
